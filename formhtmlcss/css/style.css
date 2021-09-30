@@ -1,0 +1,140 @@
+body{
+    background-color: #C0BDBA;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Principal{
+    background-color: #24323D;
+    width: 25vw;
+    height: 58vh;
+    border-radius: 10px;
+    padding: 35px;
+
+}
+
+.contenedor_form{
+    display: flex;
+    flex-direction: column;
+}
+
+.botones_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.boton_sign{
+    background-color: #1AB188;
+    height: 6vh;
+    width: 20vw;
+    font-size: 15px;
+    border-radius: none;
+    color: #FFFFFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.boton_log{
+    background-color: #425458;
+    height: 6vh;
+    width: 20vw;
+    font-size: 15px;
+    border-radius: none;
+    color: #839595;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.name_form{
+    color: #FFFFFF;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-top: 48px;
+    font-size: 23px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+
+.formulary1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nombre{
+    width: 11vw;
+    height: 5vh;
+    background-color: #24323D;
+    border: 1.5px solid #425458;
+    border-radius: 3px;
+    color: #FFFFFF;
+    margin: 0px 10px 0px 10px;
+
+
+}
+
+.apellido{
+    width: 11vw;
+    height: 5vh;
+    background-color: #24323D;
+    border: 1.5px solid #425458;
+    border-radius: 3px;
+    color: #FFFFFF
+    }
+
+ .dats1{
+     display: grid;
+     align-items: center;
+ }
+
+ .dats2{
+     display: grid;
+     grid-template-columns: 5hv;
+     grid-gap: 25px;
+     padding-top: 20px;
+
+ }
+
+ .mail{
+     background-color: #24323D;
+     border: 1.5px solid #425458;
+     border-radius: 3px;
+     height: 5vh;
+     width: 23.4vw;
+     margin: 15px 0px 0px 10px ;
+ }
+
+ .pass{
+    background-color: #24323D;
+    border: 1.5px solid #425458;
+    border-radius: 3px;
+    height: 5vh;
+    width: 23.4vw;
+    margin: 35px 0px 0px 10px ;
+
+ }
+ .boton_env{
+     display: flex;
+     justify-content: center;
+ }
+
+ .start{
+    width: 350PX;
+    height: 45PX;
+    background-color: #1AB188;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+ }
